@@ -2,16 +2,11 @@
 It demonstrates how to interface a GSM module with a Raspberry Pi to send SMS messages and make phone calls using Python. It uses AT commands over serial communication to control the GSM module.
 
 🔌 Hardware Required
-
-Raspberry Pi
-
-GSM Module (SIM800 / SIM900 etc.)
-
-SIM card (with SMS & calling enabled)
-
-External power supply for GSM module
-
-Jumper wires
+- Raspberry Pi
+- GSM Module (SIM800 / SIM900 etc.)
+- SIM card (with SMS & calling enabled)
+- External power supply for GSM module
+- Jumper wires
 
 ⚠️ GSM modules must not be powered directly from Raspberry Pi 5V.
 
