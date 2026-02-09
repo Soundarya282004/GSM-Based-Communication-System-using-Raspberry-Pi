@@ -16,6 +16,7 @@ TX	RX (GPIO 15)
 RX	TX (GPIO 14)
 GND	GND
 VCC	External power
+
 💻 Software Requirements
 
 Install serial library:
@@ -23,6 +24,7 @@ Install serial library:
     pip install pyserial
 
 ▶ How to Run the Code
+
 1️⃣ Enable Serial Port on Raspberry Pi
 
 Run:
@@ -57,13 +59,15 @@ make_call("+911234567890")
 
 ⚙️ How the Code Works
 🔹 Serial Communication
-gsm = serial.Serial("/dev/ttyAMA0", baudrate=9600, timeout=1)
+
+    gsm = serial.Serial("/dev/ttyAMA0", baudrate=9600, timeout=1)
 
 
 Opens serial connection to GSM module.
 
 🔹 Sending AT Commands
-send_command("AT")
+
+    send_command("AT")
 
 
 Checks communication with GSM module.
