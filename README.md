@@ -20,14 +20,14 @@ VCC	External power
 
 Install serial library:
 
-pip install pyserial
+    pip install pyserial
 
 ▶ How to Run the Code
 1️⃣ Enable Serial Port on Raspberry Pi
 
 Run:
 
-sudo raspi-config
+    sudo raspi-config
 
 
 Interface Options → Serial
@@ -36,13 +36,13 @@ Disable login shell over serial
 
 Enable serial hardware
 
-Reboot
+    Reboot
 
 2️⃣ Save the Code
 
 Save file as:
 
-main.py
+    main.py
 
 3️⃣ Update Phone Number
 
@@ -52,7 +52,8 @@ send_sms("+911234567890", "Hello! This message is from Raspberry Pi GSM module."
 make_call("+911234567890")
 
 4️⃣ Run the Script
-python3 main.py
+
+    python3 main.py
 
 ⚙️ How the Code Works
 🔹 Serial Communication
@@ -87,4 +88,4 @@ Call Ended
 
 Press:
 
-CTRL + C
+    CTRL + C
