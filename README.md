@@ -30,15 +30,10 @@ Install serial library:
 Run:
 
     sudo raspi-config
-
-
-Interface Options → Serial
-
-Disable login shell over serial
-
-Enable serial hardware
-
-    Reboot
+- Interface Options → Serial
+- Disable login shell over serial
+- Enable serial hardware
+- Reboot
 
 2️⃣ Save the Code
 
