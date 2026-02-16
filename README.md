@@ -52,18 +52,15 @@ Replace with your number:
     python3 main.py
 
 ⚙️ How the Code Works
+
 🔹 Serial Communication
 
     gsm = serial.Serial("/dev/ttyAMA0", baudrate=9600, timeout=1)
-
-
 Opens serial connection to GSM module.
 
 🔹 Sending AT Commands
 
     send_command("AT")
-
-
 Checks communication with GSM module.
 
 🔹 Sending SMS
