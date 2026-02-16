@@ -40,13 +40,12 @@ Run:
 Save file as:
 
     main.py
-
 3️⃣ Update Phone Number
 
 Replace with your number:
 
-send_sms("+911234567890", "Hello! This message is from Raspberry Pi GSM module.")
-make_call("+911234567890")
+    send_sms("+911234567890", "Hello! This message is from Raspberry Pi GSM module.")
+    make_call("+911234567890")
 
 4️⃣ Run the Script
 
