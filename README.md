@@ -12,11 +12,6 @@ It demonstrates how to interface a GSM module with a Raspberry Pi to send SMS me
 
 🔧 Connections (Basic)
 
-GSM Module	Raspberry Pi
-TX	RX (GPIO 15)
-RX	TX (GPIO 14)
-GND	GND
-VCC	External power
 <img width="310" height="121" alt="image" src="https://github.com/user-attachments/assets/fb92b385-8c03-477c-87d5-0faefe0a5fd3" />
 
 
