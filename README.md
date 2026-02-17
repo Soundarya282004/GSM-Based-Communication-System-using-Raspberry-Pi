@@ -16,6 +16,8 @@ TX	RX (GPIO 15)
 RX	TX (GPIO 14)
 GND	GND
 VCC	External power
+<img width="310" height="121" alt="image" src="https://github.com/user-attachments/assets/cc9d0cdb-920a-4a8d-a161-f68f1a9ac4c4" />
+
 
 💻 Software Requirements
 
